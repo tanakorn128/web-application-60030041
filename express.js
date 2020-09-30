@@ -6,7 +6,7 @@ app.get('/ping', function(req, res) {
 });
 
 app.get('/ping/:id', function(req, res) {
-    res.send({ping:'hello this is server and I am got '+req.params.id});
+    res.send({ping:'Hello world'});
 });
 
 app.listen(3010);
