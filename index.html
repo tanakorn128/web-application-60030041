@@ -1,9 +1,47 @@
 <html>
 <head>
-  <title>Introduce youself </title>
+  <title>Introduce yourself </title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+    body {background-color:gold}
+    h1   {
+      color: blue;
+    }
+    p    {
+      color: red;
+    }
+    li{
+      list-style-type:none;
+    }
+    .grid-container {
+  display: grid;
+  grid-template-columns: auto  ;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+
+  text-align: center;
+  font-size: 20px;
+}
+    </style>
 </head>
 <body>
-<h1>Introduce youself</h1>
-<p>Name: Thanakorn Kodmongkol</p>
+  <fieldset>
+    <legend><b>Introduce youself</b></legend>
+
+  <div class="grid-container">
+    <div><img src="https://www.img.in.th/images/5cb96b154d858a08ecb1d017bf7e06e4.jpg"  width="500" height="350" border ="5"></div>
+    <div></div>
+    <div><li>Name: Thanakorn Kodmongkol</li>
+      <li>Age: 22</li>
+      <li>Study: King Mongkut's Institute of Technology Ladkrabang</li>
+      <li>faculty: Faculty of Industrial Education and Technology</li>
+      <li>Email:60030041@kmitl.ac.th</li></div>
+    <div><a href="https://github.com/tanakorn128/web-application-60030041"><input class="w3-button w3-green" type="button" value="click to github"></button></a></a></div>
+  </div>
+  
+</fieldset>
 </body>
 </html>
